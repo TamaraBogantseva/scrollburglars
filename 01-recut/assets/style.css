@@ -1363,7 +1363,7 @@ video {
 }
 
 .max-w-md {
-	width: max(28rem);
+	max-width: min(28rem, 100%) !important;
 }
 
 .max-w-80 {
